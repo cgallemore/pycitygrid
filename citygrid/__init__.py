@@ -1,0 +1,1 @@
+class CityGridException(Exception): pass

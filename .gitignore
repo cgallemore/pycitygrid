@@ -1,0 +1,7 @@
+.coverage
+venv
+*.pyc
+*.db
+*.orig
+.idea
+atlassian-ide-plugin.xml
