@@ -1,9 +1,9 @@
 import json
 import os
-from unittest.case import TestCase
+import unittest
 from citygrid.models import SearchResult
 
-class ModelTests(TestCase):
+class ModelTests(unittest.TestCase):
     def setUp(self):
         super(ModelTests, self).setUp()
 
