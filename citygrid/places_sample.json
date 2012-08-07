@@ -1,0 +1,974 @@
+{
+  "results": {
+    "query_id": null,
+    "uri": "http://api.citygridmedia.com/search/places/v2/search/where?has_offers=false&type=movietheater&format=json&page=1&rpp=20&histograms=false&where=90045&publisher=test&region_type=circle",
+    "first_hit": 1,
+    "last_hit": 20,
+    "total_hits": 22,
+    "page": 1,
+    "rpp": 20,
+    "did_you_mean": null,
+    "regions": [
+      {
+        "type": "postal_code",
+        "name": "90045",
+        "latitude": 33.953182,
+        "longitude": -118.400197,
+        "default_radius": 3.28
+      }
+    ],
+    "histograms": [],
+    "locations": [
+      {
+        "id": 11538789,
+        "featured": false,
+        "name": "The Bridge Cinema De Lux",
+        "address": {
+          "street": "6081 Center Drive",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": "West LA, Westchester",
+        "latitude": 33.9781,
+        "longitude": -118.3928,
+        "distance": null,
+        "image": null,
+        "phone_number": "3105683375",
+        "fax_number": null,
+        "rating": 8,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/11538789/los_angeles_ca/the_bridge_cinema_de_lux.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 39,
+        "sample_categories": "IMAX Theaters, Movie Theaters, MasterCard, Visa, Gift Certificate",
+        "impression_id": "000b000000d25b68f605994d2d918c0d6f89c3568b",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 162,
+            "name": "IMAX Theaters",
+            "primary": false
+          },
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          },
+          {
+            "id": 11361,
+            "name": "MasterCard",
+            "primary": false
+          },
+          {
+            "id": 11382,
+            "name": "Visa",
+            "primary": false
+          },
+          {
+            "id": 11352,
+            "name": "Gift Certificate",
+            "primary": false
+          }
+        ],
+        "public_id": "the-bridge-cinema-de-lux-los-angeles"
+      },
+      {
+        "id": 32845572,
+        "featured": false,
+        "name": "Bridge Cinema Deluxe La",
+        "address": {
+          "street": "6081 Center Dr",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": "West LA, Westchester",
+        "latitude": 33.9781,
+        "longitude": -118.3927,
+        "distance": null,
+        "image": null,
+        "phone_number": "3105683375",
+        "fax_number": null,
+        "rating": 9,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/32845572/los_angeles_ca/bridge_cinema_deluxe_la.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 8,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b0000007e482bb24c144532a42f8edd1bd8d1cb",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "bridge-cinema-deluxe-la-los-angeles"
+      },
+      {
+        "id": 75515,
+        "featured": true,
+        "name": "Airport Masters Limousine",
+        "address": {
+          "street": "5777 W Century Blvd Suite 1601",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": null,
+        "latitude": 33.9456,
+        "longitude": -118.3828,
+        "distance": null,
+        "image": null,
+        "phone_number": "3102167777",
+        "fax_number": null,
+        "rating": null,
+        "tagline": "MASTERS: WE GUARANTEE IT.  ON TIME: WE GUARANTEE IT.   Welcome to Masters Limousine Inc.",
+        "profile": "http://losangeles.citysearch.com/profile/75515/los_angeles_ca/airport_masters_limousine.html",
+        "website": "http://losangeles.citysearch.com/profile/external/75515/los_angeles_ca/airport_masters_limousine.html",
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Limousine Service, Car Service, Motorcycle Parts & Accessories, All Terrain Vehicle Dealers, Movie Theaters",
+        "impression_id": "000b00000092456130cc224511b6222f31d7e65fe9",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 4226,
+            "name": "Limousine Service",
+            "primary": false
+          },
+          {
+            "id": 4224,
+            "name": "Car Service",
+            "primary": false
+          },
+          {
+            "id": 317,
+            "name": "Motorcycle Parts & Accessories",
+            "primary": false
+          },
+          {
+            "id": 332,
+            "name": "All Terrain Vehicle Dealers",
+            "primary": false
+          },
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          },
+          {
+            "id": 321,
+            "name": "Airport Parking Service",
+            "primary": false
+          },
+          {
+            "id": 4282,
+            "name": "Airports",
+            "primary": false
+          },
+          {
+            "id": 354,
+            "name": "Business Services",
+            "primary": false
+          },
+          {
+            "id": 3454,
+            "name": "Newspaper Publishers",
+            "primary": false
+          },
+          {
+            "id": 4250,
+            "name": "Customs Brokers",
+            "primary": false
+          },
+          {
+            "id": 4223,
+            "name": "Taxis & Shuttles",
+            "primary": false
+          },
+          {
+            "id": 268,
+            "name": "Automotive Repair",
+            "primary": false
+          },
+          {
+            "id": 246,
+            "name": "Electric Car Dealers",
+            "primary": false
+          },
+          {
+            "id": 11901,
+            "name": "Chauffeurs",
+            "primary": false
+          },
+          {
+            "id": 12627,
+            "name": "Airport Transportation",
+            "primary": false
+          },
+          {
+            "id": 12798,
+            "name": "Used Cars",
+            "primary": false
+          },
+          {
+            "id": 10203,
+            "name": "Car Auctions",
+            "primary": false
+          }
+        ],
+        "public_id": "airport-custom-svc-inc-los-angeles"
+      },
+      {
+        "id": 731302760,
+        "featured": false,
+        "name": "Reading International Inc",
+        "address": {
+          "street": "6100 Center Dr # 900",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": "Westchester, West LA",
+        "latitude": 33.97772,
+        "longitude": -118.392629,
+        "distance": null,
+        "image": null,
+        "phone_number": "2132352240",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/731302760/los_angeles_ca/reading_international_inc.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Business Management Consultants, Metal Door Manufacturers, Marketing Consultants, Movie Theaters, Real Estate Developers",
+        "impression_id": "000b0000001022397f92414d15860a7440950a6677",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 364,
+            "name": "Business Management Consultants",
+            "primary": false
+          },
+          {
+            "id": 2904,
+            "name": "Metal Door Manufacturers",
+            "primary": false
+          },
+          {
+            "id": 432,
+            "name": "Marketing Consultants",
+            "primary": false
+          },
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          },
+          {
+            "id": 3772,
+            "name": "Real Estate Developers",
+            "primary": false
+          }
+        ],
+        "public_id": "reading-international-inc-los-angeles"
+      },
+      {
+        "id": 731536410,
+        "featured": false,
+        "name": "Angelika Film Ctr LLC",
+        "address": {
+          "street": "6100 Center Dr # 900",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": "West LA, Westchester",
+        "latitude": 33.97772,
+        "longitude": -118.392629,
+        "distance": null,
+        "image": null,
+        "phone_number": "2132352240",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/731536410/los_angeles_ca/angelika_film_ctr_llc.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b0000003f18fe4a46554b40ae09f3c6986a5ac1",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "angelika-film-ctr-llc-los-angeles"
+      },
+      {
+        "id": 737399030,
+        "featured": false,
+        "name": "Race Louis",
+        "address": {
+          "street": "7213 Alverstone Ave",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": "West LA, Westchester",
+        "latitude": 33.97583,
+        "longitude": -118.39704,
+        "distance": null,
+        "image": null,
+        "phone_number": "3106454782",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/737399030/los_angeles_ca/race_louis.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b000000eeb3602f6f7e417c899bf9abb37b0a5b",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "race-louis-los-angeles"
+      },
+      {
+        "id": 669992130,
+        "featured": false,
+        "name": "RAVE MOTION PICTURES",
+        "address": {
+          "street": "6081 CENTER DR",
+          "city": "LOS ANGELES",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": "West LA, Westchester",
+        "latitude": 33.97818,
+        "longitude": -118.3931,
+        "distance": null,
+        "image": null,
+        "phone_number": "3102153483",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/669992130/los_angeles_ca/rave_motion_pictures.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b000000e422a7993e314a8fb184bd42d5ec4950",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "rave-motion-pictures-los-angeles"
+      },
+      {
+        "id": 753565720,
+        "featured": false,
+        "name": "Rave Cinemas",
+        "address": {
+          "street": "6081 Center Dr # 201",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90045"
+        },
+        "neighborhood": "Westchester, West LA",
+        "latitude": 33.978057,
+        "longitude": -118.391949,
+        "distance": null,
+        "image": null,
+        "phone_number": "3102153483",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/753565720/los_angeles_ca/rave_cinemas.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b00000066ea830db4794112a855296321a63d5c",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "rave-cinemas-los-angeles-2"
+      },
+      {
+        "id": 126166,
+        "featured": false,
+        "name": "Old Town Music Hall",
+        "address": {
+          "street": "140 Richmond Street",
+          "city": "El Segundo",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.917,
+        "longitude": -118.4171,
+        "distance": null,
+        "image": null,
+        "phone_number": "3103222592",
+        "fax_number": null,
+        "rating": 10,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/126166/el_segundo_ca/old_town_music_hall.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 5,
+        "sample_categories": "First Run Movie Theaters, Theatres, Halls & Auditoriums, Movie Theaters",
+        "impression_id": "000b0000002b44abf31f3b4967b8c58a74b88ed158",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 161,
+            "name": "First Run Movie Theaters",
+            "primary": false
+          },
+          {
+            "id": 135,
+            "name": "Theatres",
+            "primary": false
+          },
+          {
+            "id": 623,
+            "name": "Halls & Auditoriums",
+            "primary": false
+          },
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "old-town-music-hall-el-segundo"
+      },
+      {
+        "id": 126151,
+        "featured": false,
+        "name": "Pacific Theatres",
+        "address": {
+          "street": "831 S Nash St",
+          "city": "El Segundo",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.9038,
+        "longitude": -118.3888,
+        "distance": null,
+        "image": null,
+        "phone_number": "3106070007",
+        "fax_number": null,
+        "rating": 9,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/126151/el_segundo_ca/pacific_theatres.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 10,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b000000f1a403cad67145ab9021ea04a79c305b",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "pacific-theatres-el-segundo"
+      },
+      {
+        "id": 11278216,
+        "featured": false,
+        "name": "Pacific Beach Cities All Stadium 16",
+        "address": {
+          "street": "831 South Nash Street",
+          "city": "El Segundo",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.9018,
+        "longitude": -118.3886,
+        "distance": null,
+        "image": null,
+        "phone_number": "3106070007",
+        "fax_number": null,
+        "rating": 7,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/11278216/el_segundo_ca/pacific_beach_cities_all_stadium_16.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 3,
+        "sample_categories": "First Run Movie Theaters, Movie Theaters",
+        "impression_id": "000b000000324b137f61344618bc1aec6ae894355e",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 161,
+            "name": "First Run Movie Theaters",
+            "primary": false
+          },
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "pacific-beach-cities-all-stadium-16-el-segundo"
+      },
+      {
+        "id": 613662640,
+        "featured": false,
+        "name": "Regal Marina Del Rey 6",
+        "address": {
+          "street": "4335 Glencoe Ave",
+          "city": "Marina Del Rey",
+          "state": "CA",
+          "postal_code": "90292"
+        },
+        "neighborhood": "Marina Del Rey, West LA, Marina Del Ray",
+        "latitude": 33.986401,
+        "longitude": -118.439461,
+        "distance": null,
+        "image": null,
+        "phone_number": "3108231721",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/613662640/marina_del_rey_ca/regal_marina_del_rey_6.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 14,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b000000d735583e98664b8987cc88109f11ec33",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "regal-marina-del-rey-6-marina-del-rey"
+      },
+      {
+        "id": 602384116,
+        "featured": false,
+        "name": "Marina Del Rey 6",
+        "address": {
+          "street": "4335 Glencoe Ave",
+          "city": "Marina Del Rey",
+          "state": "CA",
+          "postal_code": "90292"
+        },
+        "neighborhood": "Marina Del Ray, West LA, Marina Del Rey",
+        "latitude": 33.986408,
+        "longitude": -118.439453,
+        "distance": null,
+        "image": null,
+        "phone_number": "3108239377",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/602384116/marina_del_rey_ca/marina_del_rey_6.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 1,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b00000037ea362b5cbe4f49bcb37f97715f2c68",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "marina-del-rey-6-marina-del-rey"
+      },
+      {
+        "id": 731118310,
+        "featured": false,
+        "name": "Arc Light Cinema",
+        "address": {
+          "street": "831 S Nash St",
+          "city": "El Segundo",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.90383,
+        "longitude": -118.38861,
+        "distance": null,
+        "image": null,
+        "phone_number": "3106070012",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/731118310/el_segundo_ca/arc_light_cinema.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Concert Bureaus, Movie Theaters",
+        "impression_id": "000b000000eac1165adbe44811951d38bd256b353f",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 139,
+            "name": "Concert Bureaus",
+            "primary": false
+          },
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "arc-light-cinema-el-segundo"
+      },
+      {
+        "id": 712066000,
+        "featured": false,
+        "name": "PACIFIC THEATRES SHERMAN OAKS",
+        "address": {
+          "street": "831 S NASH ST",
+          "city": "EL SEGUNDO",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.90383,
+        "longitude": -118.38861,
+        "distance": null,
+        "image": null,
+        "phone_number": "3106070012",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/712066000/el_segundo_ca/pacific_theatres_sherman_oaks.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Concert Bureaus, Movie Theaters",
+        "impression_id": "000b000000010c7ff34b724140b2703f03266fa1b2",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 139,
+            "name": "Concert Bureaus",
+            "primary": false
+          },
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "pacific-theatres-sherman-oaks-el-segundo-2"
+      },
+      {
+        "id": 669331670,
+        "featured": false,
+        "name": "PACIFIC THEATRES BEACH CITIES",
+        "address": {
+          "street": "831 S NASH ST",
+          "city": "EL SEGUNDO",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.90383,
+        "longitude": -118.38861,
+        "distance": null,
+        "image": null,
+        "phone_number": "3106070012",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/669331670/el_segundo_ca/pacific_theatres_beach_cities.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b00000035bbab75e35844e39ccec593449330e4",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "pacific-theatres-beach-cities-el-segundo-2"
+      },
+      {
+        "id": 35797576,
+        "featured": false,
+        "name": "UA Marina Del Rey 6",
+        "address": {
+          "street": "4335 Glencoe Avenue",
+          "city": "Marina Del Rey",
+          "state": "CA",
+          "postal_code": "90292"
+        },
+        "neighborhood": "Marina Del Ray, Marina Del Rey, West LA",
+        "latitude": 33.9863,
+        "longitude": -118.4394,
+        "distance": null,
+        "image": null,
+        "phone_number": "8003263264",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/35797576/marina_del_rey_ca/ua_marina_del_rey_6.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b0000005bcd574e763f47f6801787503c89ba1c",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "ua-marina-del-rey-6-marina-del-rey"
+      },
+      {
+        "id": 613460230,
+        "featured": false,
+        "name": "Paseo Stadium 14",
+        "address": {
+          "street": "831 S Nash St",
+          "city": "El Segundo",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.90358,
+        "longitude": -118.388588,
+        "distance": null,
+        "image": null,
+        "phone_number": "6265688888",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/613460230/el_segundo_ca/paseo_stadium_14.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b000000ccaa3d5f66ee47ffab723969fc28f1df",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "paseo-stadium-14-el-segundo"
+      },
+      {
+        "id": 737949410,
+        "featured": false,
+        "name": "Signature Lighting Svc",
+        "address": {
+          "street": "4320 S Centinela Ave # 203",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90066"
+        },
+        "neighborhood": "Marina Del Ray, West LA, Marina Del Rey",
+        "latitude": 33.99465,
+        "longitude": -118.425568,
+        "distance": null,
+        "image": null,
+        "phone_number": "3103914946",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/737949410/los_angeles_ca/signature_lighting_svc.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b000000e993354228cf403eab891d18fcb0d37c",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "signature-lighting-svc-los-angeles"
+      },
+      {
+        "id": 745138050,
+        "featured": false,
+        "name": "Arc Light Cinema",
+        "address": {
+          "street": "831 S Nash St",
+          "city": "El Segundo",
+          "state": "CA",
+          "postal_code": "90245"
+        },
+        "neighborhood": null,
+        "latitude": 33.90383,
+        "longitude": -118.38861,
+        "distance": null,
+        "image": null,
+        "phone_number": "8186070012",
+        "fax_number": null,
+        "rating": null,
+        "tagline": null,
+        "profile": "http://losangeles.citysearch.com/profile/745138050/el_segundo_ca/arc_light_cinema.html",
+        "website": null,
+        "has_video": false,
+        "has_offers": false,
+        "offers": null,
+        "user_review_count": 0,
+        "sample_categories": "Movie Theaters",
+        "impression_id": "000b0000002325e649334a497fa0c431b8bf78af6a",
+        "expansion": {
+          "count": null,
+          "uri": null
+        },
+        "tags": [
+          {
+            "id": 157,
+            "name": "Movie Theaters",
+            "primary": false
+          }
+        ],
+        "public_id": "arc-light-cinema-el-segundo-2"
+      }
+    ]
+  }
+}

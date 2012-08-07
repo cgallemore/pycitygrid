@@ -26,6 +26,26 @@ class Address(object):
         self.postal_code = data.get('postal_code', '')
 
 
+class Expansion(object):
+    count = None
+    uri = None
+
+    def __init__(self, data):
+        self.count = data.get('count', None)
+        self.uri = data.get('uri', None)
+
+
+class Tag(object):
+    id = None
+    name = None
+    primary = False
+
+    def __init__(self, data):
+        self.id = data.get('id')
+        self.name = data.get('name')
+        self.primary = data.get('primary', False)
+
+
 class Location(object):
     id = None
     featured = None
@@ -53,11 +73,8 @@ class Location(object):
     public_id = None
 
     def __init__(self, data):
-        def to_bool(value):
-            return True if value.lower() == 'true' else False
-
         self.id = data.get('id', '')
-        self.featured = to_bool(data.get('featured'))
+        self.featured = data.get('featured')
         self.name = data.get('name', '')
         self.address = Address(data.get('address'))
         self.neighborhood = data.get('neighborhood', '')
@@ -71,14 +88,14 @@ class Location(object):
         self.tagline = data.get('tagline', '')
         self.profile = data.get('profile', '')
         self.website = data.get('website', '')
-        self.has_video = to_bool(data.get('has_video', ''))
-        self.has_offers = to_bool(data.get('has_offers', ''))
+        self.has_video = data.get('has_video', '')
+        self.has_offers = data.get('has_offers', '')
         self.offers = data.get('offers', '')
         self.user_review_count = data.get('user_review_count', '')
         self.sample_categories = data.get('sample_categories', '')
         self.impression_id = data.get('impression_id', '')
-        self.expansion = data.get('expansion', '')
-        self.tags = data.get('tags', '') #TODO Create tags object, this is a collection
+        self.expansion = Expansion(data.get('expansion'))
+        self.tags = [Tag(_t) for _t in data.get('tags', [])]
         self.public_id = data.get('public_id', '')
 
 class SearchResult(object):
@@ -95,13 +112,14 @@ class SearchResult(object):
     histograms = None
 
     def __init__(self, data):
-        self.rpp = data.get('rpp')
-        self.page = data.get('page')
-        self.last_hit = data.get('last_hit')
-        self.first_hit = data.get('first_hit')
-        self.total_hits = data.get('total_hits')
-        self.query_id = data.get('query_id')
-        self.uri = data.get('uri')
-        self.did_you_mean = data.get('did_you_mean', '')
-        self.regions = [Region(_r) for _r in data.get('regions')]
-        self.locations = [Location(_l) for _l in data.get('locations')]
+        result = data.get('results')
+        self.rpp = result.get('rpp')
+        self.page = result.get('page')
+        self.last_hit = result.get('last_hit')
+        self.first_hit = result.get('first_hit')
+        self.total_hits = result.get('total_hits')
+        self.query_id = result.get('query_id')
+        self.uri = result.get('uri')
+        self.did_you_mean = result.get('did_you_mean', '')
+        self.regions = [Region(_r) for _r in result.get('regions', [])]
+        self.locations = [Location(_l) for _l in result.get('locations', [])]
