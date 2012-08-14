@@ -1,5 +1,5 @@
 =========
-PyAdility
+PyCityGrid
 =========
 
 .. image:: https://secure.travis-ci.org/cgallemore/pycitygrid.png
